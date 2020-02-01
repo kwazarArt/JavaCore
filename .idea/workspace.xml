@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d08d843-2a14-4796-a064-21ef54f5b420" name="Default Changelist" comment="" />
+    <list default="true" id="2d08d843-2a14-4796-a064-21ef54f5b420" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/GameRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/NewGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/PlayerComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/PlayerPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Variant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Chapter09/IntStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Chapter09/IntStack.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -20,6 +33,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1X0p2kXQcjNElb4poca2HmXEDJ5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -32,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DefaultMethodDemo">
+  <component name="RunManager" selected="Application.GameRunner">
     <configuration name="AskMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.kwazarArt.javacore.Chapter09.AskMe" />
       <module name="JavaCore" />
@@ -59,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IFTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.kwazarArt.javacore.Chapter09.IFTest" />
+    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.kwazarArt.javacore.Game.GameRunner" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.com.kwazarArt.javacore.Chapter09.*" />
+          <option name="PATTERN" value="main.java.com.kwazarArt.javacore.Game.NewGame" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameRunner" />
         <item itemvalue="Application.DefaultMethodDemo" />
         <item itemvalue="Application.AskMe" />
         <item itemvalue="Application.IFTest3" />
         <item itemvalue="Application.IFTest2" />
-        <item itemvalue="Application.IFTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,5 +139,16 @@
       <updated>1580192660771</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
