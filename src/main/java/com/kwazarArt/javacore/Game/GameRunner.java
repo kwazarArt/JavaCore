@@ -4,8 +4,6 @@ import java.io.IOException;
 
 public class GameRunner {
     public static void main(String[] args) throws IOException {
-        NewGame game = new NewGame();
-        game.newGame();
-
+        GameLogic logic = new GameLogic("Sheldon");
     }
 }

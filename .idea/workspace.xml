@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d08d843-2a14-4796-a064-21ef54f5b420" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/GameLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/GameRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/NewGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/PlayerComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/PlayerPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Variant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/PlayerType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Chapter09/IntStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Chapter09/IntStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/GameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/GameLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/GameRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/GameRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/NewGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/PlayerComputer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/main/java/com/kwazarArt/javacore/Game/PlayerPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/NewGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/PlayerComputer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/PlayerPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Variant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kwazarArt/javacore/Game/Variant.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

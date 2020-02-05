@@ -1,16 +1,24 @@
 package main.java.com.kwazarArt.javacore.Game;
 
-import java.io.*;
+public class Player {
+     private String name;
+     private PlayerType type;
 
-public interface Player {
-    String name = "Computer";
-    Variant choiceVariant() throws IOException;
-    String getName();
+    public Player(String name) {
+        this.name = name;
+        this.type = PlayerType.PERSON;
+    }
 
-    default String input() throws IOException {
-        InputStream inputStream = System.in;
-        Reader inputStreamReader = new InputStreamReader(inputStream);
-        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        return bufferedReader.readLine();
+    public Player() {
+        this.name = "Computer";
+        this.type = PlayerType.COMPUTER;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public PlayerType getType() {
+        return type;
     }
 }

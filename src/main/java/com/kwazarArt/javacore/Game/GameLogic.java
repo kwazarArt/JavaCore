@@ -1,41 +1,93 @@
 package main.java.com.kwazarArt.javacore.Game;
 
-import java.io.IOException;
+import java.io.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
 class GameLogic {
-    private Variant personChoice;
-    private Variant computerChoice;
+    private Player player1;
+    private Player player2;
+    private Map<Player, Variant> map;
+    protected Field field;
 
-    GameLogic(NewGame game) throws IOException {
-        this.personChoice = game.getPlayer1().choiceVariant();
-        this.computerChoice = game.getPlayer2().choiceVariant();
-        findWinner(game);
+    GameLogic(String personName) throws IOException {
+        this.player1 = new Player(personName);
+        this.player2 = new Player();
+        map = new HashMap<>();
+        field = new Field(choiceVariant(player1), choiceVariant(player2));
+        fillMap(player1, player2, field);
     }
 
-    private void findWinner(NewGame curGame) {
-        int x = compareTo(personChoice, computerChoice);
+    void fillMap(Player player1, Player player2m, Field field) throws IOException {
+        map.put(player1, field.getVariant1());
+        map.put(player2, field.getVariant2());
+        findWinner(player1, player2);
+    }
+
+    private void findWinner(Player player1, Player player2) {
+        int x = compareTo(map.get(player1), map.get(player2));
         System.out.print("Результат - ");
         if (x == 1) {
-            System.out.println("Победитель " + curGame.getPlayer1().getName());
-        }
-        else if (x == 0) {
+            System.out.println("Победитель " + player1.getName());
+        } else if (x == 0) {
             System.out.println("Ничья");
-        }
-        else {
-            System.out.println("Победитель " + curGame.getPlayer2().getName());
+        } else {
+            System.out.println("Победитель " + player2.getName());
         }
     }
 
-    private int compareTo(Variant personChoice, Variant computerChoice) {
-        if (personChoice == Variant.PAPER && computerChoice == Variant.PAPER) return 0;
-        if (personChoice == Variant.SCISSORS && computerChoice == Variant.SCISSORS) return 0;
-        if (personChoice == Variant.STONE && computerChoice == Variant.STONE) return 0;
-        if (personChoice == Variant.SCISSORS && computerChoice == Variant.PAPER) return 1;
-        if (personChoice == Variant.SCISSORS && computerChoice == Variant.STONE) return -1;
-        if (personChoice == Variant.PAPER && computerChoice == Variant.SCISSORS) return -1;
-        if (personChoice == Variant.PAPER && computerChoice == Variant.STONE) return 1;
-        if (personChoice == Variant.STONE && computerChoice == Variant.SCISSORS) return 1;
-        if (personChoice == Variant.STONE && computerChoice == Variant.PAPER) return -1;
+    int compareTo(Variant var1, Variant var2) {
+        if (var1 == Variant.PAPER && var2 == Variant.PAPER) return 0;
+        if (var1 == Variant.SCISSORS && var2 == Variant.SCISSORS) return 0;
+        if (var1 == Variant.STONE && var2 == Variant.STONE) return 0;
+        if (var1 == Variant.SCISSORS && var2 == Variant.PAPER) return 1;
+        if (var1 == Variant.SCISSORS && var2 == Variant.STONE) return -1;
+        if (var1 == Variant.PAPER && var2 == Variant.SCISSORS) return -1;
+        if (var1 == Variant.PAPER && var2 == Variant.STONE) return 1;
+        if (var1 == Variant.STONE && var2 == Variant.SCISSORS) return 1;
+        if (var1 == Variant.STONE && var2 == Variant.PAPER) return -1;
         return -2;
+    }
+
+    public Variant choiceVariant(Player player) throws IOException {
+        int x;
+        if (player.getType() == PlayerType.PERSON) {
+            do {
+                System.out.println("Выберите свой вариaнт:");
+                System.out.println("\t1. Камень");
+                System.out.println("\t2. Ножницы");
+                System.out.println("\t3. Бумага");
+                System.out.println("Выберите нужный пункт:");
+                x = Integer.parseInt(input());
+            } while (x < 1 || x > 3);
+        } else {
+            Random rand = new Random();
+            x = rand.nextInt(3);
+        }
+        return printVariant(x, player);
+    }
+
+    Variant printVariant(int x, Player player) {
+        switch (x) {
+            case 0:
+                System.out.println(player.getName() + " выбрал КАМЕНЬ");
+                return Variant.STONE;
+            case 1:
+                System.out.println(player.getName() + " выбрал НОЖНИЦЫ");
+                return Variant.SCISSORS;
+            case 2:
+                System.out.println(player.getName() + " выбрал БУМАГУ");
+                return Variant.PAPER;
+            default:
+                return null;
+        }
+    }
+
+    private String input() throws IOException {
+        InputStream inputStream = System.in;
+        Reader inputStreamReader = new InputStreamReader(inputStream);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        return bufferedReader.readLine();
     }
 }

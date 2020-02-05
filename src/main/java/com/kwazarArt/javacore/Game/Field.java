@@ -1,27 +1,21 @@
 package main.java.com.kwazarArt.javacore.Game;
 
-import java.io.IOException;
-
 class Field {
-    private Player player1;
-    private Player player2;
+    Variant variant1;
+    Variant variant2;
 
-    Player getPlayer1() {
-        return player1;
+    public Field(Variant variant1, Variant variant2) {
+        this.variant1 = variant1;
+        this.variant2 = variant2;
     }
 
-    Player getPlayer2() {
-        return player2;
+    public Variant getVariant1() {
+        return variant1;
     }
 
-    Field() throws IOException {
-        this.player1 = new PlayerPerson();
-        this.player2 = new PlayerComputer();
-        greeding(player1, player2);
+
+    public Variant getVariant2() {
+        return variant2;
     }
 
-    private void greeding(Player player1, Player player2) {
-        System.out.println("Приветствуем на нашем игровом поле " +
-                player1.getName() + " и " + player2.getName());
-    }
 }
