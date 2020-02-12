@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter09;
+package com.kwazarArt.javacore.chapter09;
 
 public class Client implements Callback {
     @Override

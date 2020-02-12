@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter05;
+package com.kwazarArt.javacore.chapter05;
 
 import java.io.IOException;
 

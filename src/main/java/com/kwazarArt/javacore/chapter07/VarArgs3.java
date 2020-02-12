@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter07;
+package com.kwazarArt.javacore.chapter07;
 
 public class VarArgs3 {
     static void vaTest(int ... v) {

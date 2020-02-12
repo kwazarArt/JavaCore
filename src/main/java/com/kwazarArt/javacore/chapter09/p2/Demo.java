@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter09.p2;
+package com.kwazarArt.javacore.chapter09.p2;
 
 public class Demo {
     public static void main(String[] args) {

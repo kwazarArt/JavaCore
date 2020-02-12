@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter08;
+package com.kwazarArt.javacore.chapter08;
 
 public class Triangle extends Figure {
     public Triangle(double dim1, double dim2) {

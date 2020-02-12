@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter09;
+package com.kwazarArt.javacore.chapter09;
 
 public class AskMe implements SharedConstants {
     static void answer(int result) {

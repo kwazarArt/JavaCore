@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter03;
+package com.kwazarArt.javacore.chapter03;
 
 public class Promote {
     public static void main(String[] args) {

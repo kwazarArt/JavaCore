@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter08;
+package com.kwazarArt.javacore.chapter08;
 
 class A {
     int i, j;

@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter02;
+package com.kwazarArt.javacore.chapter02;
 /*
 Это простая программа на Java.
 Присвоить исходному файлу имя "Example.java"

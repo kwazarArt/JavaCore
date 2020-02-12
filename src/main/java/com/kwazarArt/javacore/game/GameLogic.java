@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.game;
+package com.kwazarArt.javacore.game;
 
 import java.io.*;
 import java.util.HashMap;

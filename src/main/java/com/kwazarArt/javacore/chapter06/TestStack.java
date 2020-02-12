@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter06;
+package com.kwazarArt.javacore.chapter06;
 
 public class TestStack {
     public static void main(String[] args) {

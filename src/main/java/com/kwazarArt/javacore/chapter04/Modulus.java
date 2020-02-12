@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter04;
+package com.kwazarArt.javacore.chapter04;
 
 public class Modulus {
     public static void main(String[] args) {

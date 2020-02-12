@@ -1,6 +1,6 @@
-package main.java.com.kwazarArt.javacore.chapter09.p2;
+package com.kwazarArt.javacore.chapter09.p2;
 
-class Protection2 extends main.java.com.kwazarArt.javacore.chapter09.p1.Protection {
+class Protection2 extends com.kwazarArt.javacore.chapter09.p1.Protection {
     Protection2() {
         System.out.println("Конструктор, унаследованный из другого пакета");
         //System.out.println("n = " + n);

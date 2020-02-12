@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.game;
+package com.kwazarArt.javacore.game;
 
 public enum Variant {
     STONE,

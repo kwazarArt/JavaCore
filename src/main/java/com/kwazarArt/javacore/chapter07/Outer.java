@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter07;
+package com.kwazarArt.javacore.chapter07;
 
 public class Outer {
     int outer_x = 100;

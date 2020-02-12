@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter05;
+package com.kwazarArt.javacore.chapter05;
 
 public class MissingBreak {
     public static void main(String[] args) {

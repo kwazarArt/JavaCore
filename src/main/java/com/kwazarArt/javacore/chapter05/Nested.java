@@ -1,4 +1,4 @@
-package main.java.com.kwazarArt.javacore.chapter05;
+package com.kwazarArt.javacore.chapter05;
 
 public class Nested {
     public static void main(String[] args) {
